@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#textbox {
+  height: 45px;
+  width: 442px;
+  font-size: 20px;
+}
+
+#submitbutton {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+}

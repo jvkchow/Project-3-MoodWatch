@@ -6,6 +6,8 @@ import { Register } from './pages/Register';
 import { Login } from './pages/Login';
 import { Home } from './pages/Home';
 import { NotificationScreen } from './pages/NotificationScreen';
+import { PersonalInfo } from './pages/PersonalInfo';
+import { Settings } from './pages/Settings';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route exact path='/register' element={<Register />} />
           <Route exact path='/login' element={<Login />} />
           <Route exact path='/home' element={<Home />} />
+          <Route exact path='/personal' element={<PersonalInfo />} />
+          <Route exact path='/settings' element={<Settings />} />
         </Routes>
       </BrowserRouter>
     </UserContextProvider>
